@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .getir_nav_left{
+        @apply text-getir_white;
+        font-family: 'Secular One', sans-serif;
+    }
+    .getir_nav a:hover{
+        background-color: #5D3EBC;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+    }
+    .getir_logo{
+        height: 180px;
+        width: 180px;
+    }
+    .carousel_hw{
+        height: 500px;
+        width: fullpx;
+    }
+    .carousel_font{
+        @apply text-getir_white;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .categories_item:hover{
+        background-color: #5D3EBC;
+        border-radius: 10%;
+    }
+    .campaign_items{
+        margin-top:60px;
+        margin-bottom: 60px;
+        margin-left: 16px;
+        margin-right: 16px;
+        border-radius: 5%;
+    }
+}
